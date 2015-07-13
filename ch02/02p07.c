@@ -9,6 +9,11 @@
  * $10 bills: 1
  *  $5 bills: 0
  *  $1 bills: 3
+ *
+ *  Hint: Divide the amount by 20 to determine the number of $20 bills
+ *  needed, and then reduce the amount by the total value of the $20
+ *  bills. Repeat for the other bill sizes. Be sure to use integer
+ *  values throughout, not floating-point numbers.
  */
  #include <stdio.h>
 
