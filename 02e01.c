@@ -1,5 +1,5 @@
 /*
- * Ch02 Ex1 | C Programming, A Modern Approach
+ * Ch02 Ex01 | C Programming, A Modern Approach
  *
  * Create and run Kernighan and Ritchie's famous
  * "hello, world" program.
@@ -16,5 +16,5 @@ int main(void)
 
 /*
  * No warning messages using:
- * gcc -Wall -g 2e01.c -o bin/2e01
+ * gcc -Wall -g 02e01.c -o bin/02e01
  */
