@@ -1,5 +1,5 @@
 /*
- * Ch2 Ex04 | C Programming, A Modern Approach
+ * Ch02 Ex04 | C Programming, A Modern Approach
  *
  * Write a program that declares several int and float variables -
  * without initializing them - and then prints their values.

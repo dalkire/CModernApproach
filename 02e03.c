@@ -1,4 +1,6 @@
 /*
+ * Ch02e03 | C Programming, A Modern Approach
+ * 
  * Condense the dweight.c program by (1) replacing the assignments
  * to height, length, and width with initializers and (2) removing
  * the weight variable, instead calculating (volume + 165) / 166

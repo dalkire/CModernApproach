@@ -1,5 +1,5 @@
 /*
- * Ch2 Ex1
+ * Ch02 Ex1 | C Programming, A Modern Approach
  *
  * Create and run Kernighan and Ritchie's famous
  * "hello, world" program.
