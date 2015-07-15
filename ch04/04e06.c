@@ -21,6 +21,6 @@ int main(void)
  * has the same sign as i.
  * (a) 3
  * (b) -3
- * (c) 2
+ * (c) 3
  * (d) -3
  */
