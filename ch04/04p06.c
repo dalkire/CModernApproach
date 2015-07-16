@@ -26,7 +26,7 @@
  * Enter the first 12 digits of an EAN: 869148426000
  * Check digit: 8
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

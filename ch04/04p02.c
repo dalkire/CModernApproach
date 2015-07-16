@@ -4,7 +4,7 @@
  * Extend the program in Programming Project 1 to handle three-digit
  * numbers.
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

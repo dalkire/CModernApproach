@@ -8,7 +8,7 @@
  * (c) - a - b + c - + d
  * (d) a * - b / c - d
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

@@ -7,7 +7,7 @@
  * Note that the modified program performs fewer multiplications.
  * This technique for evaluating polynomials is known as Horner's Rule.
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

@@ -9,7 +9,7 @@
  * (c) i * j / i;
  * (d) i % ++j;
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

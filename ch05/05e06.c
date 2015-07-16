@@ -7,7 +7,7 @@
  *
  * If so, what does it do when n is equal to 5?
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

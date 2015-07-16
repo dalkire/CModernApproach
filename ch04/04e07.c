@@ -13,7 +13,7 @@
  * Subtract the remainder from 10.
  * Why doesn't this technique work?
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

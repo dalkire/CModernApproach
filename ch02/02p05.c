@@ -8,7 +8,7 @@
  * multiply x by itself repeatedly in order to compute the powers of x.
  * (For example, x*x*x is x cubed.)
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

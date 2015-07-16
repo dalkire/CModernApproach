@@ -5,7 +5,7 @@
  * reversal of a three-digit number without using arithmetic to split
  * the number into digits. Hint: See the upc.c program of section 4.1.
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

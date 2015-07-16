@@ -17,7 +17,7 @@
  * rate. To find the monthly interest rate, convert the interest rate
  * entered by the user to a percentage and divide it by 12.
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

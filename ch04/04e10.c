@@ -16,7 +16,7 @@
  *     j = (i = 6) + (j = 3);
  *     printf("%d %d", i, j);
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

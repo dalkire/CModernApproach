@@ -15,7 +15,7 @@
  *  bills. Repeat for the other bill sizes. Be sure to use integer
  *  values throughout, not floating-point numbers.
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

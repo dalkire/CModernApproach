@@ -12,7 +12,7 @@
  * (d) i = 1; j = 2; k = 3;
  *     printf("%d", i < j || k);
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

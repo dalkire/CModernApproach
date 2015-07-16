@@ -7,7 +7,7 @@
  * Hint: C doesn't have an exponentiation operator, so you'll need
  * to multiply r by itself twice to compute r^3.
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

@@ -16,7 +16,7 @@
  *     printf("%d ", i++ - j++ + --k);
  *     printf("%d %d %d", i, j, k);
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

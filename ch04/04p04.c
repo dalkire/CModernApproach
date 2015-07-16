@@ -14,7 +14,7 @@
  * (printf is capable of displaying numbers in base 8, as we'll see in
  * Chapter 7, so there's actually an easier way to write this program.)
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

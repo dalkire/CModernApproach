@@ -16,7 +16,7 @@
  *     j = 3 + --i * 2;
  *     printf("%d %d\n", i, j);
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

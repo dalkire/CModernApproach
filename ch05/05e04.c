@@ -5,7 +5,7 @@
  * depending on whether i is less than, equal to, or greater than j,
  * respectively.
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

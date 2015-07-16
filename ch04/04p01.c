@@ -11,7 +11,7 @@
  * Hint: If n is an integer, then n % 10 is the last digit in n
  * and n / 10 is n with the last digit removed.
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

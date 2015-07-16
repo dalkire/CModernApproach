@@ -7,7 +7,7 @@
  * Enter the first 11 digits of a UPC: 01380015173
  * Check digit: 5
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

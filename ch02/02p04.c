@@ -6,7 +6,7 @@
  * Enter an amount: 100.00
  * With tax added: $105.00
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {

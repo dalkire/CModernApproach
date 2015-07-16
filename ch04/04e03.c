@@ -9,7 +9,7 @@
  * (c) 8 / -5
  * (d) -8 / -5
  */
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
