@@ -1,5 +1,5 @@
 /*
- * Ch05 Pr01 | C Programming, A Modern Approach
+ * Ch05 Pr02 | C Programming, A Modern Approach
  *
  * Write a program that asks the user for a 24-hour time, then displays
  * the time in a 12-hour form:
