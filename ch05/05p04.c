@@ -1,5 +1,5 @@
 /*
- * Ch05 Pr03 | C Programming, A Modern Approach
+ * Ch05 Pr04 | C Programming, A Modern Approach
  *
  * Here's a simplified version of the Beaufort scale, which is used to
  * estimate wind force:
