@@ -25,9 +25,10 @@ int main(void)
 
 	if (h == 0) {
 		h = 12;
+		suffix = "AM";
 	}
 
-	printf("Equivalent 12-hour time: %d:%d %s\n", h, m, suffix);
+	printf("Equivalent 12-hour time: %d:%.2d %s\n", h, m, suffix);
 
 	return 0;
 }
