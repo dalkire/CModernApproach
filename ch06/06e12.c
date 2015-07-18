@@ -13,10 +13,23 @@
  * of n; instead compare d * d with n.
  */
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void)
 {
+	int n, d;
+	bool prime = true;
 
+	printf("Enter a number to find out if it is prime: ");
+	scanf("%d", &n);
+
+	for (d = 2; d * d < n; d++) {
+		if (n % d == 0) {
+			prime = false;
+		}
+	}
+
+	printf("%d is%s prime\n", n, prime ? "" : " NOT");
 
 	return 0;
 }
