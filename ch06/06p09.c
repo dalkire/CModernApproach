@@ -27,7 +27,7 @@ int main(void)
 
 	for (int i = 1; i <= num_payments; i++) {
 		balance = balance + balance * monthly_interest - payment;
-		printf("Balance remaining after payment %d: $%.2f\n",
+		printf("Balance remaining after payment %2d: $%.2f\n",
 		       i, balance);
 	}
 
