@@ -1,7 +1,13 @@
 /*
- * Ch07 Ex08 | C Programming, A Modern Approach
+ * Ch07 Ex07 | C Programming, A Modern Approach
  *
- * Repeat Exercise 7, but give the equivalent hexadecimal escape.
+ * For each of the following character escapes, give the equivalent octal
+ * escape. (Assume the character set is ASCII.) You may wish to consult
+ * Appendix E, which lists the numerical codes for ASCII characters.
+ * (a) \b
+ * (b) \n
+ * (c) \r
+ * (b) \t
  */
 #include <stdio.h>
 
@@ -11,8 +17,8 @@ int main(void)
 }
 
 /*
- * (a) b = 98 => \0x62
- * (b) n = 110 => \0x6E
- * (c) r = 114 => \0x72
- * (d) t = 116 => \0x74
+ * (a) b = 98 => \0142
+ * (b) n = 110 => \0156
+ * (c) r = 114 => \0162
+ * (d) t = 116 => \0164
  */
