@@ -24,4 +24,7 @@ int main(void)
  * After reading the chapter, I would expect (b) to be illegal because there
  * is no mention of creating binary numbers by beginning them with 0b, but
  * they all compiled without warning and gave the proper results.
+ *
+ * Upon further research, it seems that the 0b-binary is a gcc compiler
+ * extension.
  */
