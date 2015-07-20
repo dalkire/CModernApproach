@@ -15,25 +15,36 @@
 
 int main(void)
 {
-	float balance, interest, payment;
-	int num_payments;
+	int first_month, first_day, first_year, m, d, y;
 
-	printf("Enter amount of loan: ");
-	scanf("%f", &balance);
-	printf("Enter interest rate: ");
-	scanf("%f", &interest);
-	printf("Enter monthly payment: ");
-	scanf("%f", &payment);
-	printf("Enter number of payments: ");
-	scanf("%d", &num_payments);
+	printf("Enter a date (mm/dd/yy): ");
+	scanf("%d/%d/%d", &m, &d, &y);
 
-	float monthly_interest = (interest/100)/12;
+	first_month = m;
+	first_day = d;
+	first_year = y;
 
-	for (int i = 1; i <= num_payments; i++) {
-		balance = balance + balance * monthly_interest - payment;
-		printf("Balance remaining after payment %2d: $%.2f\n",
-		       i, balance);
+	while (m != 0 || d != 0  || y != 0) {
+		if (y < first_year) {
+			first_month = m;
+			first_day = d;
+			first_year = y;
+		} else if (y == first_year && m < first_month) {
+			first_month = m;
+			first_day = d;
+			first_year = y;
+		} else if (y == first_year && m == first_month && d < first_day) {
+			first_month = m;
+			first_day = d;
+			first_year = y;
+		}
+
+		printf("Enter a date (mm/dd/yy): ");
+		scanf("%d/%d/%d", &m, &d, &y);
 	}
+
+	printf("%d/%d/%.2d is the earliest date\n",
+	       first_month, first_day, first_year);
 
 	return 0;
 }
