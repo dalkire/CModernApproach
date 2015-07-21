@@ -5,7 +5,6 @@
  * sizeof(long), sizeof(float), sizeof(double), sizeof(long double).
  */
 #include <stdio.h>
-#include <ctype.h>
 
 int main(void)
 {
