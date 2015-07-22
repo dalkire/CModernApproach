@@ -16,5 +16,5 @@ int main(void)
 
 /*
  * No warning messages using:
- * gcc -Wall -g 02e01.c -o bin/02e01
+ * gcc -Wall 02e01.c -o ../bin/02e01
  */
