@@ -10,7 +10,6 @@
  * length to one decimal place.
  */
 #include <stdio.h>
-#include <ctype.h>
 
 int main(void)
 {
