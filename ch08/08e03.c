@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	bool weekend[DAYS_IN_WEEK] = {[0] = true, [6] = true};
+	bool weekend[DAYS_IN_WEEK] = {true, false, false, false, false, false, true};
 
 	for (int i = 0; i < DAYS_IN_WEEK; i++) {
 		printf("%d is a weekend day: %s\n", i, weekend[i] ? "true" : "false");
