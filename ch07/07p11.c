@@ -16,17 +16,16 @@
 int main(void)
 {
 	char initial, c;
-	bool space_after_first_name = false;
 
 	printf("Enter a first and last name: ");
 	scanf(" %c", &initial);
-
-	while ((c = getchar()) != '\n') {
-		if (space_after_first_name && c != ' ') {
-			printf("%c", c);
-		} else if (c == ' ') {
-			space_after_first_name = true;
-		}
+	while (getchar() != ' ') {
+		/* consume rest of first name */
+	}
+	scanf(" "); /* consume spaces between first and last names */
+	
+	while ((c = getchar()) != '\n' && c != ' ') {
+		printf("%c", c);
 	}
 
 	printf(" %c.\n", initial);
