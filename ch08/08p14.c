@@ -15,17 +15,20 @@
  */
 #include <stdio.h>
 
+#define TERMINUS (c = getchar()) != '\n' && c != '.' && c != '?' && c != '!'
+
 int main(void)
 {
 	char sentence[200], c;
 	int pos;
 
 	printf("Enter a sentence: ");
-	for (int i = 0; (c = getchar()) != '\n' && c != '.' && c != '?' && c != '!'; i++) {
+	for (int i = 0; TERMINUS; i++) {
 		sentence[i] = c;
 		pos = i;
 	}
 
+	printf("Reversal of sentence: ");
 	for (int i = pos; i >= 0; i--) {
 		int j;
 		if (sentence[i] == ' ') {
