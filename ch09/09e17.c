@@ -1,27 +1,30 @@
 /*
  * Ch09 Ex17 | C Programming, A Modern Approach
  *
- * Write a recursive version of the gcd function (see Exercise 3). Here's the
- * strategy to use for computing gcd(m, n): If n is 0, return m. Otherwise,
- * call gcd recursively, passing n as the first argument and m % n as the
- * second.
+ * Rewrite the fact function so that it's no longer recursive.
  */
 #include <stdio.h>
 
-int gcd(int m, int n);
+long fact(int n);
 
 int main(void)
 {
-	int m, n;
+	int n;
 
-	printf("Enter two positive integers to find their GCD: ");
-	scanf("%d%d", &m, &n);
-	printf("GCD: %d\n", gcd(m, n));
+	printf("Enter a positive integer: ");
+	scanf("%d", &n);
+	printf("%d! = %ld\n", n, fact(n));
 
 	return 0;
 }
 
-int gcd(int m, int n)
+long fact(int n)
 {
-	return n == 0 ? m : gcd(n, m % n);
+	long factorial = 1;
+
+	for (int i = n; i > 1; i--) {
+		factorial *= i;
+	}
+
+	return factorial;
 }
