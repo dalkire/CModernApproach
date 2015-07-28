@@ -44,13 +44,11 @@ void pb(int n)
  *         1 != 0
  *             pb(1 / 2) = pb(0)
  *             0 == 0
- *             putchar('0' + 0 % 2)
  *         putchar('0' + 1 % 2)
  *     putchar('0' + 3 % 2)
  * putchar('0' + 7 % 2)
  *
  * ====================
- * putchar('0' + 0)
  * putchar('0' + 1)
  * putchar('0' + 1)
  * putchar('0' + 1)
