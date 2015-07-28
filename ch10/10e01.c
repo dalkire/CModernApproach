@@ -39,11 +39,11 @@ int main(void)
 
 /*
  * (a) Variables available within the f function:
- *     a, b, c (after decl)
+ *     a, b, c (after decl), f
  * (b) Variables available within the g function:
- *     a, d (after decl), e (after decl within inner block)
+ *     a, d (after decl), e (after decl within inner block), f, g
  * (c) Variables available within the block in which e is declared:
- *     a, d, e (after decl)
+ *     a, d, e (after decl), f, g
  * (d) Variables available within the main function:
- *     a, f (after decl)
+ *     a, f (function, before var decl), f (var, after decl), g
  */
