@@ -70,6 +70,7 @@ int main(void)
 		}
 	}
 	print_digits_array();
+	printf("\n");
 
 	return 0;
 }
