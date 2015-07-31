@@ -1,5 +1,5 @@
 /*
- * Ch11 Ex04 | C Programming, A Modern Approach
+ * Ch11 Ex05 | C Programming, A Modern Approach
  *
  * Write the following function:
  *
